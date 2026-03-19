@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📋 Task Board</h1>
+
+<div class="form">
+    <input id="title" placeholder="Title">
+    <input id="desc" placeholder="Description">
+    <input id="priority" type="number" min="1" max="5" placeholder="Priority (1-5)">
+    <input id="deadline" type="date">
+    <input id="hours" type="number" placeholder="Estimated Hours">
+    <input id="tags" placeholder="Tags (comma separated)">
+    <button onclick="createTask()">Add Task</button>
+</div>
+
+<div id="errorBox"></div>
+
+<h2>📊 Stats</h2>
+<div id="stats"></div>
+
+<div id="board"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
