@@ -180,7 +180,22 @@ Managing tags as arrays and storing them in SQLite as JSON.
 
 ---
 
+## 📸 Screenshots
 
+### Task Board
+![Board](screenshots/board.png)
+
+### Task Details
+![Details](screenshots/task-details.png)
+
+### Stats Dashboard
+![Stats](screenshots/stats.png)
+
+### Task Form
+![Form](screenshots/form.png)
+
+### Empty State
+![Empty](screenshots/empty-state.png)
 
 ## 🎯 Conclusion
 
